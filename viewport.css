@@ -1,0 +1,317 @@
+/* extra large size */
+
+@media (min-width: 1920px){
+  
+  /* -- ovefrlow -- */
+
+  [mod-if-screen-xl~="overflow-hidden"]{
+    overflow: hidden;
+  }
+  [mod-if-screen-xl~="overflow-hidden-x"]{
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  [mod-if-screen-xl~="overflow-hidden-y"]{
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+  [mod-if-screen-xl~="overflow-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-xl~="overflow-visible-x"]{
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-xl~="overflow-visible-y"]{
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+  [mod-if-screen-xl~="scroll"]{
+    overflow: scroll;
+  }
+  [mod-if-screen-xl~="scroll-x"]{
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  [mod-if-screen-xl~="scroll-y"]{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  [mod-if-screen-xl~="auto"]{
+    overflow: auto;
+  }
+  [mod-if-screen-xl~="auto-x"]{
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-xl~="auto-y"]{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+}
+
+/* large size */
+
+@media (max-width: 1920px){
+  
+  /* -- ovefrlow -- */
+
+  [mod-if-screen-lg~="overflow-hidden"]{
+    overflow: hidden;
+  }
+  [mod-if-screen-lg~="overflow-hidden-x"]{
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  [mod-if-screen-lg~="overflow-hidden-y"]{
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+  [mod-if-screen-lg~="overflow-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-lg~="overflow-visible-x"]{
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-lg~="overflow-visible-y"]{
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+  [mod-if-screen-lg~="scroll"]{
+    overflow: scroll;
+  }
+  [mod-if-screen-lg~="scroll-x"]{
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  [mod-if-screen-lg~="scroll-y"]{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  [mod-if-screen-lg~="auto"]{
+    overflow: auto;
+  }
+  [mod-if-screen-lg~="auto-x"]{
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-lg~="auto-y"]{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+}
+
+/* medium size */
+
+@media (max-width: 1280px){
+  
+  /* -- ovefrlow -- */
+
+  [mod-if-screen-md~="overflow-hidden"]{
+    overflow: hidden;
+  }
+  [mod-if-screen-md~="overflow-hidden-x"]{
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  [mod-if-screen-md~="overflow-hidden-y"]{
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+  [mod-if-screen-md~="overflow-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-md~="overflow-visible-x"]{
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-md~="overflow-visible-y"]{
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+  [mod-if-screen-md~="scroll"]{
+    overflow: scroll;
+  }
+  [mod-if-screen-md~="scroll-x"]{
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  [mod-if-screen-md~="scroll-y"]{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  [mod-if-screen-md~="auto"]{
+    overflow: auto;
+  }
+  [mod-if-screen-md~="auto-x"]{
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-md~="auto-y"]{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+}
+
+/* small size */
+
+@media (max-width: 960px){
+  
+  /* -- ovefrlow -- */
+
+  [mod-if-screen-sm~="overflow-hidden"]{
+    overflow: hidden;
+  }
+  [mod-if-screen-sm~="overflow-hidden-x"]{
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  [mod-if-screen-sm~="overflow-hidden-y"]{
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+  [mod-if-screen-sm~="overflow-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-sm~="overflow-visible-x"]{
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-sm~="overflow-visible-y"]{
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+  [mod-if-screen-sm~="scroll"]{
+    overflow: scroll;
+  }
+  [mod-if-screen-sm~="scroll-x"]{
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  [mod-if-screen-sm~="scroll-y"]{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  [mod-if-screen-sm~="auto"]{
+    overflow: auto;
+  }
+  [mod-if-screen-sm~="auto-x"]{
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-sm~="auto-y"]{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+}
+
+/* extra small xs */
+
+@media (max-width: 748px){
+
+ /* -- ovefrlow -- */
+
+  [mod-if-screen-xs~="overflow-hidden"]{
+    overflow: hidden;
+  }
+  [mod-if-screen-xs~="overflow-hidden-x"]{
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  [mod-if-screen-xs~="overflow-hidden-y"]{
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+  [mod-if-screen-xs~="overflow-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-xs~="overflow-visible-x"]{
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-xs~="overflow-visible-y"]{
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+  [mod-if-screen-xs~="scroll"]{
+    overflow: scroll;
+  }
+  [mod-if-screen-xs~="scroll-x"]{
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  [mod-if-screen-xs~="scroll-y"]{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  [mod-if-screen-xs~="auto"]{
+    overflow: auto;
+  }
+  [mod-if-screen-xs~="auto-x"]{
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-xs~="auto-y"]{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+}
+
+/* extra extra small */
+
+@media (max-width: 480px){
+  
+  /* -- ovefrlow -- */
+
+  [mod-if-screen-xxs~="overflow-hidden"]{
+    overflow: hidden;
+  }
+  [mod-if-screen-xxs~="overflow-hidden-x"]{
+    overflow-x: hidden;
+    overflow-y: visible;
+  }
+  [mod-if-screen-xxs~="overflow-hidden-y"]{
+    overflow-y: hidden;
+    overflow-x: visible;
+  }
+  [mod-if-screen-xxs~="overflow-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-xxs~="overflow-visible-x"]{
+    overflow-x: visible;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-xxs~="overflow-visible-y"]{
+    overflow-y: visible;
+    overflow-x: hidden;
+  }
+  [mod-if-screen-xxs~="scroll"]{
+    overflow: scroll;
+  }
+  [mod-if-screen-xxs~="scroll-x"]{
+    overflow-y: hidden;
+    overflow-x: scroll;
+  }
+  [mod-if-screen-xxs~="scroll-y"]{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  [mod-if-screen-xxs~="auto"]{
+    overflow: auto;
+  }
+  [mod-if-screen-xxs~="auto-x"]{
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  [mod-if-screen-xxs~="auto-y"]{
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+}

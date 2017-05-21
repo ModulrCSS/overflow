@@ -1,0 +1,17 @@
+{
+  "name": "modulr-overflow",
+  "homepage": "https://github.com/ModulrCSS/overflow",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Overflow Module ( menage overflow property on elements )",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

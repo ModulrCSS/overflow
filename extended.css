@@ -1,0 +1,85 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Overflow Module
+  @author: Alan Museljic
+  @git: https://github.com/ModulrCSS/overflow
+  @source: http://www.getmodulr.com/css/overflow
+  ------------------------------------------------
+  @uses: modulr/overflow/*
+  @docs: true 
+\-------------------------------------------------*/
+
+
+/* 
+  @modifier: overflow
+  @property: overflow
+  @desc: sets overflow to hidden
+*/
+
+[mod-overflow~="hidden"]{
+  overflow: hidden;
+}
+[mod-overflow~="hidden-x"]{
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+[mod-overflow~="hidden-y"]{
+  overflow-y: hidden;
+  overflow-x: visible;
+}
+
+/* 
+  @modifier: overflow
+  @property: overflow
+  @desc: sets overflow to visible
+*/
+
+
+[mod-overflow~="visible"]{
+  visibility: visible;
+}
+[mod-overflow~="visible-x"]{
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+[mod-overflow~="visible-y"]{
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+/* 
+  @modifier: overflow
+  @property: overflow
+  @desc: sets overflow to scroll
+*/
+
+[mod-overflow~="scroll"]{
+  overflow: scroll;
+}
+[mod-overflow~="scroll-x"]{
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+[mod-overflow~="scroll-y"]{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* 
+  @modifier: overflow
+  @property: overflow
+  @desc: sets overflow to auto
+*/
+
+[mod-overflow~="auto"]{
+  overflow: auto;
+}
+[mod-overflow~="auto-x"]{
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+[mod-overflow~="auto-y"]{
+  overflow-y: auto;
+  overflow-x: hidden;
+}

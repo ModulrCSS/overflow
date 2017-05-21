@@ -1,0 +1,95 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Overflow Module
+  @author: Alan Museljic
+  @git: https://github.com/ModulrCSS/overflow
+  @source: http://www.getmodulr.com/css/overflow
+  ------------------------------------------------
+  @uses: modulr/overflow/*
+  @docs: true 
+\-------------------------------------------------*/
+
+/* 
+  @modifier: overflow
+  @property: overflow
+  @desc: sets overflow to hidden
+*/
+[mod-overflow~="hidden"],
+.overflow-hidden,
+.overflow-hidden:hover{
+  overflow: hidden;
+}
+.overflow-x-hidden,
+.overflow-x-hidden:hover{
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+.overflow-y-hidden,
+.overflow-y-hidden:hover{
+  overflow-y: hidden;
+  overflow-x: visible;
+}
+
+/* 
+  @modifier: overflow
+  @property: overflow
+  @desc: sets overflow to visible
+*/
+
+.overflow-visible,
+.overflow-visible:hover{
+  visibility: visible;
+}
+.overflow-x-visible,
+.overflow-x-visible:hover{
+  overflow-x: visible;
+  overflow-y: hidden;
+}
+.overflow-y-visible,
+.overflow-y-visible:hover{
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+/* 
+  @modifier: overflow
+  @property: overflow
+  @desc: sets overflow to scroll
+*/
+
+.overflow-scroll,
+.overflow-scroll:hover{
+  overflow: scroll;
+}
+.overflow-x-scroll,
+.overflow-x-scroll:hover{
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+.overflow-y-scroll,
+.overflow-y-scroll:hover{
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* 
+  @modifier: overflow
+  @property: overflow
+  @desc: sets overflow to auto
+*/
+
+.overflow-auto,
+.overflow-auto:auto{
+  overflow: auto;
+}
+.overflow-x-auto,
+.overflow-x-auto:hover{
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.overflow-y-auto,
+.overflow-y-auto:hover{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
