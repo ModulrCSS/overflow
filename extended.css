@@ -70,7 +70,7 @@
   @modifier: overflow
   @property: overflow
   @desc: sets overflow to auto
-*/
+*/   
 
 [mod-overflow~="auto"]{
   overflow: auto;
